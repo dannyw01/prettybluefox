@@ -5,9 +5,9 @@ I want to make a huge improvement in users' security and privacy on the internet
 
 Instead of companies storing user data on their own servers, I want users to store their own data on a server where the user pays for the service and the company providing the service has no income from any of the organizations which the user may allow to access that data. Call the company that stores the data for the user 'Festung' and the company which creates and accesses the data 'Fishy'. And call the user 'Fred'.
 
-The user can send a company like Fishy permission, ie perhaps an encoded version of Fishy's public key, to access certain data. Fishy can then read certain records and fields, and write certain records and fields, as long as Fishy complies with the user's rules (which Festung enforces) and the user wishes to continue.
+Fred can send a company like Fishy permission, ie perhaps an encoded version of Fishy's public key, to access certain data. Fishy can then read certain records and fields, and write certain records and fields, as long as Fishy complies with the user's rules (which Festung enforces) and the user wishes to continue.
 
-Fishy pledges to keep the Fred's data only in temporary storage. It is not easy to verify such a pledge, but it seems much easier to me to verify that Fishy is not routinely handling stored data than making sure that no copies are ever made of the data in a database. For instance, credit card companies have already been fairly successful in preventing companies like Fishy from storing full credit card data.
+Fishy pledges to keep Fred's data only in temporary storage. It is not easy to verify such a pledge, but it seems much easier to me to verify that Fishy is not routinely handling stored data than making sure that no copies are ever made of the data in a database. For instance, credit card companies have already been fairly successful in preventing companies like Fishy from storing full credit card data.
 
 At present a company like Fishy does a lot of database accesses which would be very clumsy using Reflector, like 'select all users in Manchester who bought a book last month'. I happen to think that many such accesses tend to be made for the benefit of Fishy, not Fred.
 
