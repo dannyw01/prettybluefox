@@ -9,7 +9,7 @@ The user can send a company like Fishy permission, ie perhaps an encoded version
 
 Fishy pledges to keep the Fred's data only in temporary storage. It is not easy to verify such a pledge, but it seems much easier to me to verify that Fishy is not routinely handling stored data than making sure that no copies are ever made of the data in a database. For instance, credit card companies have already been fairly successful in preventing companies like Fishy from storing full credit card data.
 
-At present a company like Fishy does a lot of database accesses which would be very clumsy using Reflector, like 'select all users in Manchester who bought a book last month'. I happen to think that many such accesses like tend to be made for the benefit of Fishy, not Fred.
+At present a company like Fishy does a lot of database accesses which would be very clumsy using Reflector, like 'select all users in Manchester who bought a book last month'. I happen to think that many such accesses tend to be made for the benefit of Fishy, not Fred.
 
 Fishy is allowed to retain data which is created and used by Fishy itself, like the product ordered, the price, the ship date, the call operator, etc. But this data links only to the customer id, and Fred is the only one who knows his id, and Fishy only remembers the id, not Fred.
 
